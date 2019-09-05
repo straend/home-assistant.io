@@ -21,6 +21,7 @@ pkg update
 pkg upgrade
 pkg install -y python37 py37-sqlite3 ca_root_nss
 python3.7 -m ensurepip
+pip3 install virtualenv
 ```
 
 Create the configuration directory:
